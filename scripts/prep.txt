@@ -1,0 +1,10 @@
+
+#update all packages
+sudo apt update
+
+sduo apt -y install iproute2 \
+  traceroute \
+  tcpdump \
+  netcat-openbsd \
+
+

@@ -1,0 +1,9 @@
+
+/*疎通の確認*/
+ping -c 3 8.8.8.8
+
+/*ipアドレスを確認*/
+ip address show
+
+/*通信をキャプチャ*/
+sudo tcpdump -tn any icp

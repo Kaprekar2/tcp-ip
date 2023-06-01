@@ -1,0 +1,8 @@
+
+/*dnsの通信をキャプチャ*/
+sudo tcpdump -tnl -i any "udp and port 53"
+
+/*googleのDNSサーバーで名前解決*/
+dig +short @8.8.8.8 example.org
+
+

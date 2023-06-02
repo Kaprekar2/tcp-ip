@@ -6,4 +6,4 @@ ping -c 3 8.8.8.8
 ip address show
 
 /*通信をキャプチャ*/
-sudo tcpdump -tn any icp
+sudo tcpdump -tn -i any icp

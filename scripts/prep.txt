@@ -1,10 +1,12 @@
 
-#update all packages
+/*update all packages index*/
 sudo apt update
 
+/*install packages*/
 sduo apt -y install iproute2 \
-  traceroute \
+  iputils-ping \
   tcpdump \
-  netcat-openbsd \
+  bind9-dnsutils
+  
 
 

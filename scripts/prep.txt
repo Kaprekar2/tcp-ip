@@ -3,10 +3,7 @@
 sudo apt update
 
 /*install packages*/
-sudo apt -y install iproute2 \
-  iputils-ping \
-  tcpdump \
-  bind9-dnsutils
+sudo apt -y install iproute2 iputils-ping tcpdump bind9-dnsutils
   
 
 
